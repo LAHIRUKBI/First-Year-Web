@@ -1,0 +1,227 @@
+/*Create Navigation bar*/
+ul.menu{
+     margin-left: 20px;
+     list-style-type: none;
+    /*margin-top: 100;*/
+     padding: 0;
+     overflow: hidden;
+     background-color: black ;
+     border-radius: 10px;
+     margin-right: 20px; 
+}
+
+li.menu{
+	 float: left;
+}
+
+.menu a:hover {
+     background-color: #206280;
+	 transition: background-color 0.9s ease;
+}
+
+/*Create Navigation bar and aling right*/
+.licl{
+	text-align:right;
+}
+li.licl{
+	float: right;
+}
+
+a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ai{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+/*Create search bar*/
+.searchbox {
+    float: left;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.searchbox button {
+
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #0c242f;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	background-color: #0c242f;
+	transition: background-color 1.9s;
+}
+
+.searchbox button:hover {
+          background: #206280;
+}
+
+
+
+
+
+/*Login form*/		
+		
+.loginform {
+        padding: 80px;
+        border: 7px;
+        border-radius: 80px;
+        width: 300px;
+        border-color: red;
+        background-color: #FF8551;
+}
+		
+		
+
+.hrsize {
+    height: 10px; /* Change this value to adjust the line height */
+    background-color: black; /* Change the color if needed */
+    border: none; /* Remove the default border */
+	border-radius:100px
+  }
+
+h1 {
+            background-color: #D7E5CA;
+            padding: 5px;
+            text-align: center;
+            font-size: 100px;
+            color: black;
+            font-family: sans-serif;
+
+h2 {
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 1px;
+            color: black;
+			font-size: 100px;
+        }
+p {
+            font-family: sans-serif;
+            color: black
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 20px;
+            color: black;
+        }
+
+        label {
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            color: black;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+			
+			
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('books.jpg'); /* Replace with your background image URL */
+			background-repeat: repeat; /* You can change 'repeat' to 'no-repeat' for a single background */
+			background-color: #B0D9B1;
+			margin: 0;
+			padding: 0;
+		}
+		
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 80px;
+			background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		h1 {
+			
+		}
+		h2 {
+			font-size: 24px;
+		}
+		form {
+			margin-top: 20px;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		.login-button {
+			background-color: #007BFF;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 18px;
+		}
+		.login-button:hover {
+			background-color: #0056b3;
+		}
+		.hrsize {
+			border-top: 1px solid #ccc;
+			margin-top: 20px;
+		}	
+			
+
+ footer {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: #0e0d0d;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+		
+.Faddbutton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.9s ease;
+	border: 2px solid white;	
+
+}			

@@ -1,0 +1,310 @@
+
+
+
+hr{
+	border:2px solid black;
+}
+
+body {
+  background-image: url("../imagesss/backgrndlate.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+ul.menu{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.menu{
+	float:left;
+}
+
+li.a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ .productData{
+	
+	background-color:white;
+}
+
+.col1{
+	text-align:center;
+}
+
+.col2{
+	text-align:left;
+}
+
+li.menu a:hover{
+	background-color:#04AA6d;
+}	
+
+footer {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: #6497b1;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+li.menu a:hover{
+	background-color:#04AA6d;
+}
+
+h1 {
+	
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 200px;
+  color: white;
+  background-color: black;
+
+}
+
+h3 {
+	
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+
+}
+h4 {
+	
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 10px;
+  color: black;
+  background-color: white;
+
+}
+   
+
+hr{
+	border:2px solid black;
+}
+
+.check
+{
+	font-size:50px;
+}
+
+
+.contact-form {
+  width: 80%; /* Adjust the width to your preference */
+  margin: 0 auto;
+  padding: 20px; /* Adjust the padding for spacing */
+  border: 2px solid #000; /* Change the border properties */
+  border-radius: 20px; /* Adjust the border radius */
+  background-color: #DAD4B5; /* Add a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Apply a subtle shadow */
+}
+
+/* Additional styling for better readability */
+.contact-form h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.form-field {
+  margin-bottom: 20px;
+  color:black;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input, .form-field textarea {
+  width: 90%;
+  padding: 8px;
+  /*border: 1px solid #ccc;*/
+  border: 3px solid black;
+  border-radius:50px;
+}
+
+.submit-button {
+  text-align: center;
+  border-radius:50px;
+}
+
+.submit-button input {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.reset-button {
+  text-align: center;
+  border-radius:50px;
+}
+
+.reset-button input {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+
+//////first cssssss
+
+#contact-us {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#contact-us h1 {
+  text-align: center;
+}
+
+#contact-us p {
+  margin-bottom: 10px;
+}
+
+////
+.container {
+  width: 500px;
+  margin: 0 auto;
+  
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.different-style {
+  font-family: Arial, sans-serif;
+  color: blue;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.contact-info h2 {
+  font-size: 30px;
+}
+
+
+
+ul.menu{
+     margin-left: 20px;
+     list-style-type: none;
+    /*margin-top: 100;*/
+     padding: 0;
+     overflow: hidden;
+     background-color: #F94C10 ;
+     border-radius: 10px;
+     margin-right: 20px; 
+}
+
+li.menu{
+	 float: left;
+}
+
+.menu a:hover {
+     background-color: #7D7C7C;
+	 transition: background-color 0.9s ease;
+}
+
+/*create menue bar and aling right*/
+.licl{
+	text-align:right;
+}
+li.licl{
+	float: right;
+}
+
+a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ai{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+/*Create search bar*/
+
+.searchbox {
+    float: left;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.searchbox button {
+
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #0c242f;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	background-color: orange;
+	transition: background-color 1.9s;
+}
+.searchbox button:hover {
+background: #7D7C7C;
+}

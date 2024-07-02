@@ -1,0 +1,41 @@
+/* Footer styles */
+footer {
+    background-color: #F94C10 ;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Left section styles */
+.footer-left {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+
+/* Center section styles */
+.footer-center {
+    text-align: center;
+    float: left;
+    width: 60%;
+}
+
+/* Right section styles */
+.footer-right {
+    text-align: right;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Social media icon styles */
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* Clear fix for floats */
+.clear {
+    clear: both;
+}

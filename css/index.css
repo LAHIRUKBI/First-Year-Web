@@ -1,0 +1,205 @@
+hr{
+	border:2px solid black;
+}
+
+body{
+	background-image:url("../images/white.jpg");	
+   }
+   
+  /*create menubar css*/
+
+ul.menu{
+     margin-left: 20px;
+     list-style-type: none;
+    /*margin-top: 100;*/
+     padding: 0;
+     overflow: hidden;
+     background-color: #F94C10 ;
+     border-radius: 10px;
+     margin-right: 20px; 
+}
+
+li.menu{
+	 float: left;
+}
+
+.menu a:hover {
+     background-color: #7D7C7C;
+	 transition: background-color 0.9s ease;
+}
+
+/*create menue bar and aling right*/
+.licl{
+	text-align:right;
+}
+li.licl{
+	float: right;
+}
+
+a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ai{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+/*Create search bar*/
+
+.searchbox {
+    float: left;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.searchbox button {
+
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #0c242f;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	background-color: orange;
+	transition: background-color 1.9s;
+}
+.searchbox button:hover {
+background: #7D7C7C;
+}
+
+
+li a{
+display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ .productData{
+	
+	background-color:white;
+}
+
+.col1{
+	text-align:center;
+}
+
+.col2{
+	text-align:left;
+}
+
+
+
+footer {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: #6497b1;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+h1 {
+	
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 100px;
+  color: white;
+  background-color: black;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+hr{
+	border:2px solid black;
+}
+
+.check
+{
+	font-size:50px;
+}
+
+/* Text box */
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color: #009933;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect on submit button */
+input[type="submit"]:hover {
+  background-color: #006622;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #F94C10 ;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Left section styles */
+.footer-left {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+
+/* Center section styles */
+.footer-center {
+    text-align: center;
+    float: left;
+    width: 60%;
+}
+
+/* Right section styles */
+.footer-right {
+    text-align: right;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Social media icon styles */
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* Clear fix for floats */
+.clear {
+    clear: both;
+}

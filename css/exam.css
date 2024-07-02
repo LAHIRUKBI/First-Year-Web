@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    max-width: 1200px;
+    box-sizing: 1px solid black;
+}
+.header h1{
+    padding: 20px auto;
+    text-align: center;
+    padding: 2rem auto;
+    color: #02268a;
+    margin: 1rem auto;
+   
+}
+/* navigation section */
+ul.menu{
+     margin-left: 20px;
+     list-style-type: none;
+    /*margin-top: 100;*/
+     padding: 0;
+     overflow: hidden;
+     background-color: #F94C10 ;
+     border-radius: 10px;
+     margin-right: 20px; 
+}
+
+li.menu{
+	 float: left;
+}
+
+.menu a:hover {
+     background-color: #7D7C7C;
+	 transition: background-color 0.9s ease;
+}
+
+/*create menue bar and aling right*/
+.licl{
+	text-align:right;
+}
+li.licl{
+	float: right;
+}
+
+a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ai{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+/*Create search bar*/
+
+.searchbox {
+    float: left;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.searchbox button {
+
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #0c242f;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	background-color: orange;
+	transition: background-color 1.9s;
+}
+.searchbox button:hover {
+background: #7D7C7C;
+}
+
+/* container section */
+
+
+.container{ 
+   height: 600px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   padding: 10px 20px;
+   gap: 20px;
+ 
+}
+.container .left{
+    padding: 2rem 0;
+}
+.container .left h1{
+    color: #02268a;
+}
+.container .left input{
+    width: 100px;
+    border: 1px solid rgb(255, 145, 0);
+}
+.container .left p {
+    padding: 20px 0px;
+   
+}
+.container .right img{
+    width: 500px;
+    padding: 2rem 0;
+}
+.container .left button{
+    margin: 30px 0;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border:none;
+    color:#000;
+    background-color: rgb(247, 118, 32);
+    font-size: 20px;
+}
+
+/* create footer*/
+footer {
+    text-align: center;
+    padding: 4px;
+    background-color: #F94C10;
+    color: black;
+    font-size: 14px;
+}   
+
+/* footer icon mode */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}

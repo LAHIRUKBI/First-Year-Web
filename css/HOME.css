@@ -1,0 +1,125 @@
+
+.left-sentence, .right-sentence {
+  flex: 1;
+  text-align: center;
+  font-size: 20px; /* Add a font size */
+  color: #333; /* Add a text color */
+  background-color: white; /* Add a background color */
+  padding: 30px; /* Add padding for spacing */
+  border-radius: 50px; /* Add rounded corners */
+  margin: 5px; /* Add margin for spacing between elements */
+}
+
+/* Add hover effect for a nice interaction */
+.left-sentence:hover, .right-sentence:hover {
+  background-color: black;
+  transform: scale(1.05);
+  transition: background-color 0.9s, transform 0.9s;
+  color:white
+}
+
+
+/*head images*/
+.container {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    max-width: 800px;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+ }
+
+ 
+
+/* Description styles */
+.description {
+    flex: 1;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.description b {
+    font-size: 24px;
+    color: black;
+	letter-spacing:5px;
+}
+
+
+.description p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white; /* Set text color to white */
+    background-color: black; /* Set background color to black */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 5px; /* Add rounded corners to the black box */
+}
+
+
+
+/* Button styles */
+.Faddbutton {
+    background-color: #8EACCD;
+    color: white;
+    border: none;
+    padding: 30px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.9s;
+	font-size:20px;
+}
+
+.Faddbutton:hover {
+     background-color: black;
+     transform: scale(1.05);
+     transition: background-color 0.9s, transform 0.3s;
+     color:white
+	
+}
+
+
+/*Create table*/
+.tableB{
+	margine:100%;
+	padding:10px;
+	background-color:#333;
+	float: left;
+}
+
+.hrsize {
+    height: 10px; /* Change this value to adjust the line height */
+    background-color: black; /* Change the color if needed */
+    border: none; /* Remove the default border */
+	border-radius:100px;
+}
+ 
+
+  
+/* create footer*/
+footer {
+    text-align: center;
+    padding: 4px;
+    background-color: #F94C10;
+    color: black;
+    font-size: 14px;
+}   
+
+
+
+/* footer icon mode */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+     
